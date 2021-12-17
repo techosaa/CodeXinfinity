@@ -556,7 +556,8 @@
         z-index: 999;
     }
     .section .box-img {
-        height: 80vh;
+        height: 103vh;
+	width: 1963px;
     }
     .section .box-imgmobile{
         width: 0px;
