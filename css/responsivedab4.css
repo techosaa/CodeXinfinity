@@ -9,6 +9,10 @@
     .section .box-img {
         height: 776px;
     }
+    .section .box-imgmobile{
+        width: 0;
+        height: 0;
+    }
     .box-pos img {
         width: 85%;
     }
@@ -363,6 +367,11 @@
         height: 1010px;
         width: 1851px;
     }
+    .section .box-imgmobile{
+        width: 0px;
+        height: 0px;
+        
+    }
     .detail-content-wrap .top-content h1 {
         font-size: 150px;
         line-height: 125px;
@@ -548,6 +557,11 @@
     }
     .section .box-img {
         height: 80vh;
+    }
+    .section .box-imgmobile{
+        width: 0px;
+        height: 0px;
+        
     }
     .porzioni-di-formaggio .box-img,
     .fette-formaggio .box-img,
@@ -990,6 +1004,11 @@
     .section .box-img {
         height: 700px;
     }
+    .section .box-imgmobile{
+        width: 0px;
+        height: 0px;
+        
+    }
 }
 
 @media screen and (min-width: 600px) and (max-width: 768px) {
@@ -1031,6 +1050,11 @@
     .section .box-img {
         height: 800px;
         
+    }
+    .section .box-imgmobile{
+        width: 0px;
+        height: 0px;
+       
     }
   
     .fette-formaggio.section .box-img-wrap,
@@ -1449,9 +1473,17 @@ margin-bottom: 24px;
         width: 50%;
     }
     .section .box-img {
-        width: 100%;
-        height: 300px;
+        
+        height: 0px;
+    
+
     }
+    .section .box-imgmobile{
+        width: 100px;
+        height: 100px;
+        margin-left: 140px;
+    }
+    
     #section3 .box-img,
     #section2 .box-img {
         width: 100%;
