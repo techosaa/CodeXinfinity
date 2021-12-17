@@ -2678,7 +2678,7 @@ a.collapsed .panel-title:before {
 
 .section {
     /* background-image: url(../img/back.jpg); */
-    background-color: #17182f;
+   background-image: linear-gradient(270deg,#110a1b,#07030c);
     /* padding-bottom: 120px; */
     position: relative;
 }
