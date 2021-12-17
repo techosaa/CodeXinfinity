@@ -567,7 +567,8 @@
     .porzioni-di-formaggio .box-img,
     .fette-formaggio .box-img,
     .panna .box-img {
-        height: 60vh;
+       height: 103vh;
+	width: 1963px;
     }
     .table-header img {
         width: 100%;
