@@ -1,0 +1,2192 @@
+
+   
+<!doctype html>
+<html data-n-head-ssr lang="en">
+    
+    <head>
+        
+        <meta data-n-head="ssr" charset="utf-8">
+        <meta data-n-head="ssr" name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+        <meta data-n-head="ssr" data-hid="title" name="title" content="codex">
+        <meta data-n-head="ssr" data-hid="description" name="description" content="">
+        <meta data-n-head="ssr" data-hid="twitter:card" name="twitter:card" content="summary_large_image">
+        <meta data-n-head="ssr" data-hid="twitter:title" name="twitter:title" content="Codex">
+        <meta data-n-head="ssr" data-hid="twitter:description" name="twitter:description" content="">
+        <meta data-n-head="ssr" data-hid="og:title" name="og:title" content="Codex">
+        <meta data-n-head="ssr" data-hid="og:description" name="og:description" content="">
+        <meta data-n-head="ssr" data-hid="og:type" name="og:type" content="website">
+        <meta data-n-head="ssr" data-hid="og:site_name" name="og:site_name" content="Codex">
+        <meta data-n-head="ssr" data-hid="og:image" name="og:image" content="">
+        <meta data-n-head="ssr" data-hid="i18n-og" property="og:locale" content="en">
+        <meta data-n-head="ssr" data-hid="i18n-og-alt-de" property="og:locale:alternate" content="de">
+       
+        <meta data-n-head="ssr" data-hid="i18n-og-alt-zh-Hant" property="og:locale:alternate" content="zh_Hant">
+        <!-- <link data-n-head="ssr" rel="icon" type="image/png" href="favicon.png"> -->
+        
+       
+        <style data-vue-ssr-id="b13bd09c:0 019e1cef:0 8b8fc576:0 fabac2b6:0 1af5bd04:0 2249bdf5:0 122e9297:0 c683d62e:0 0d712496:0 9e4ba7a2:0 39c3a447:0">
+           
+            html {
+                line-height: 1.15
+            }
+
+            body {
+                margin: 0
+            }
+
+            main {
+                display: block
+            }
+
+            img {
+                border-style: none
+            }
+
+            button,
+            input {
+                overflow: visible
+            }
+
+            button,
+            select {
+                text-transform: none
+            }
+
+            [type=button],
+            [type=reset],
+            [type=submit],
+            button {
+                -webkit-appearance: button
+            }
+
+            [type=button]::-moz-focus-inner,
+            [type=reset]::-moz-focus-inner,
+            [type=submit]::-moz-focus-inner,
+            button::-moz-focus-inner {
+                border-style: none;
+                padding: 0
+            }
+
+            [type=button]:-moz-focusring,
+            [type=reset]:-moz-focusring,
+            [type=submit]:-moz-focusring,
+            button:-moz-focusring {
+                outline: 1px dotted ButtonText
+            }
+
+            .md-container li,
+            .md-container p,
+            .md-container table,
+            .paragraph,
+            p {
+                font-weight: 500
+            }
+
+            .md-container h2 {
+                font-weight: 700
+            }
+
+            .h1,
+            .h2,
+            .h3,
+            h1,
+            h2,
+            h3 {
+                font-weight: 1000
+            }
+
+            @media (max-width:767px) {
+
+                .button,
+                .link {
+                    justify-content: center;
+                    border-radius: 1.25rem;
+                    height: 3.5rem;
+                    margin: 0;
+                    min-width: 10rem;
+                    padding: 0 1.25rem
+                }
+            }
+
+            @font-face {
+                font-family: Gilroy;
+                font-style: normal;
+                font-weight: 400;
+                src: url(_nuxt/fonts/Gilroy-Regular.de3cee2.woff2) format("woff2"), url(_nuxt/fonts/Gilroy-Regular.42bdee2.woff) format("woff");
+                font-display: swap
+            }
+
+            @font-face {
+                font-family: Gilroy;
+                font-style: italic;
+                font-weight: 400;
+                src: url(_nuxt/fonts/Gilroy-RegularItalic.3a3cba1.woff2) format("woff2"), url(_nuxt/fonts/Gilroy-RegularItalic.d8bb1d4.woff) format("woff");
+                font-display: swap
+            }
+
+            @font-face {
+                font-family: Gilroy;
+                font-style: normal;
+                font-weight: 500;
+                src: url(_nuxt/fonts/Gilroy-Medium.5642320.woff2) format("woff2"), url(_nuxt/fonts/Gilroy-Medium.14defa3.woff) format("woff");
+                font-display: swap
+            }
+
+            @font-face {
+                font-family: Gilroy;
+                font-style: italic;
+                font-weight: 500;
+                src: url(_nuxt/fonts/Gilroy-MediumItalic.0340106.woff2) format("woff2"), url(_nuxt/fonts/Gilroy-MediumItalic.4334a39.woff) format("woff");
+                font-display: swap
+            }
+
+            @font-face {
+                font-family: Gilroy;
+                font-style: normal;
+                font-weight: 600;
+                src: url(_nuxt/fonts/Gilroy-SemiBold.8ba383a.woff2) format("woff2"), url(_nuxt/fonts/Gilroy-SemiBold.ab78dbc.woff) format("woff");
+                font-display: swap
+            }
+
+            @font-face {
+                font-family: Gilroy;
+                font-style: italic;
+                font-weight: 600;
+                src: url(_nuxt/fonts/Gilroy-SemiBoldItalic.45e1220.woff2) format("woff2"), url(_nuxt/fonts/Gilroy-SemiBoldItalic.d4fa813.woff) format("woff");
+                font-display: swap
+            }
+
+            @font-face {
+                font-family: Gilroy;
+                font-style: normal;
+                font-weight: 700;
+                src: url(_nuxt/fonts/Gilroy-Bold.5c3dd88.woff2) format("woff2"), url(_nuxt/fonts/Gilroy-Bold.7206121.woff) format("woff");
+                font-display: swap
+            }
+
+            @font-face {
+                font-family: Gilroy;
+                font-style: italic;
+                font-weight: 700;
+                src: url(_nuxt/fonts/Gilroy-BoldItalic.ff2e3fe.woff2) format("woff2"), url(_nuxt/fonts/Gilroy-BoldItalic.5b4477c.woff) format("woff");
+                font-display: swap
+            }
+
+            @font-face {
+                font-family: Gilroy;
+                font-style: normal;
+                font-weight: 800;
+                src: url(_nuxt/fonts/Gilroy-ExtraBold.9d3eac0.woff2) format("woff2"), url(_nuxt/fonts/Gilroy-ExtraBold.8f50da4.woff) format("woff");
+                font-display: swap
+            }
+
+            @font-face {
+                font-family: Gilroy;
+                font-style: italic;
+                font-weight: 800;
+                src: url(_nuxt/fonts/Gilroy-ExtraBoldItalic.59a7c34.woff2) format("woff2"), url(_nuxt/fonts/Gilroy-ExtraBoldItalic.5409047.woff) format("woff");
+                font-display: swap
+            }
+
+            @font-face {
+                font-family: Gilroy;
+                font-style: normal;
+                font-weight: 900;
+                src: url(_nuxt/fonts/Gilroy-Black.2acd933.woff2) format("woff2"), url(_nuxt/fonts/Gilroy-Black.35aee3c.woff) format("woff");
+                font-display: swap
+            }
+
+            @font-face {
+                font-family: Gilroy;
+                font-style: italic;
+                font-weight: 900;
+                src: url(_nuxt/fonts/Gilroy-BlackItalic.61a3fc9.woff2) format("woff2"), url(_nuxt/fonts/Gilroy-BlackItalic.1aebd4a.woff) format("woff");
+                font-display: swap
+            }
+
+            @font-face {
+                font-family: Gilroy;
+                font-style: normal;
+                font-weight: 1000;
+                src: url(_nuxt/fonts/Gilroy-Heavy.5fdae55.woff2) format("woff2"), url(_nuxt/fonts/Gilroy-Heavy.8cfb704.woff) format("woff");
+                font-display: swap
+            }
+
+            @font-face {
+                font-family: Gilroy;
+                font-style: italic;
+                font-weight: 1000;
+                src: url(_nuxt/fonts/Gilroy-HeavyItalic.80bb931.woff2) format("woff2"), url(_nuxt/fonts/Gilroy-HeavyItalic.fb99851.woff) format("woff");
+                font-display: swap
+            }
+
+            a,
+            body,
+            button,
+            li {
+                font-family: Gilroy, sans-serif;
+                font-weight: 400;
+                font-style: normal;
+                text-decoration: none
+            }
+
+            a:visited {
+                color: inherit
+            }
+
+            .h1,
+            h1 {
+                font-size: 16.875rem
+            }
+
+            .h1,
+            .h2,
+            h1,
+            h2 {
+                font-family: Gilroy, sans-serif;
+                font-style: normal
+            }
+
+            .h2,
+            h2 {
+                font-size: 2.625rem
+            }
+
+            .h2.-large,
+            h2.-large {
+                font-size: 4.25rem
+            }
+
+            .h3,
+            h3 {
+                font-style: normal;
+                font-size: 2rem;
+                line-height: 2.125rem
+            }
+
+            .h3,
+            .paragraph,
+            h3,
+            p {
+                font-family: Gilroy, sans-serif
+            }
+
+            .paragraph,
+            p {
+                font-size: 1.75rem;
+                line-height: 1.5em;
+                color: #5565a5
+            }
+
+            html[lang=ja] a,
+            html[lang=ja] body,
+            html[lang=ja] button,
+            html[lang=ja] h1,
+            html[lang=ja] h2,
+            html[lang=ja] h3,
+            html[lang=ja] h4,
+            html[lang=ja] p {
+                font-family: Gilroy, Osaka, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif
+            }
+
+            html[lang=ja] .h1,
+            html[lang=ja] .h2,
+            html[lang=ja] .h3,
+            html[lang=ja] h1,
+            html[lang=ja] h2,
+            html[lang=ja] h3 {
+                font-weight: 900 !important
+            }
+
+            html[lang=ja] p {
+                font-weight: 500 !important
+            }
+
+            html[lang=zh-Hant] a,
+            html[lang=zh-Hant] body,
+            html[lang=zh-Hant] button,
+            html[lang=zh-Hant] h1,
+            html[lang=zh-Hant] h2,
+            html[lang=zh-Hant] h3,
+            html[lang=zh-Hant] h4,
+            html[lang=zh-Hant] p {
+                font-family: Gilroy, "PingFang TC", "微软雅黑体", "Microsoft YaHei New", "微软雅黑", "Microsoft Yahei", "宋体", SimSun, "Helvetica Neue", Helvetica, Arial, sans-serif
+            }
+
+            html[lang=zh-Hant] .h1,
+            html[lang=zh-Hant] .h2,
+            html[lang=zh-Hant] .h3,
+            html[lang=zh-Hant] h1,
+            html[lang=zh-Hant] h2,
+            html[lang=zh-Hant] h3 {
+                font-weight: 900 !important
+            }
+
+            html[lang=zh-Hant] p {
+                font-weight: 400 !important
+            }
+
+            .default-enter-active {
+                transition: all .6s cubic-bezier(.55, .055, .675, .19);
+                transition-delay: .2s
+            }
+
+            .default-leave-active {
+                transition: all .6s cubic-bezier(.19, 1, .22, 1);
+                transition-delay: .2s
+            }
+
+            .default-enter,
+            .default-leave-to {
+                opacity: 0
+            }
+
+            .default-fast-enter-active {
+                transition: all .3s cubic-bezier(.55, .055, .675, .19)
+            }
+
+            .default-fast-leave-active {
+                transition: all .3s cubic-bezier(.19, 1, .22, 1)
+            }
+
+            .default-fast-enter,
+            .default-fast-leave-to {
+                opacity: 0
+            }
+
+            .slide-up-enter-active {
+                transition: all .8s cubic-bezier(.55, .055, .675, .19)
+            }
+
+            .slide-up-leave-active {
+                transition: all .8s cubic-bezier(.19, 1, .22, 1)
+            }
+
+            .slide-up-enter,
+            .slide-up-leave-to {
+                opacity: 0
+            }
+
+            .pin-enter-active,
+            .pin-leave-active {
+                transition: transform .5s cubic-bezier(.175, .885, .32, 1.275), opacity .3s cubic-bezier(.19, 1, .22, 1)
+            }
+
+            .pin-enter,
+            .pin-leave-to {
+                transform: translate3D(0, -50px, 0);
+                opacity: 0
+            }
+
+            .terms-enter-active,
+            .terms-leave-active {
+                transition: transform .5s cubic-bezier(.175, .885, .32, 1.275), opacity .3s cubic-bezier(.19, 1, .22, 1)
+            }
+
+            .terms-enter {
+                transform: translate3D(-100px, 0, 0);
+                opacity: 0
+            }
+
+            .terms-leave-to {
+                transform: translate3D(100px, 0, 0);
+                opacity: 0
+            }
+
+            .privacy-enter-active,
+            .privacy-leave-active {
+                transition: transform .5s cubic-bezier(.175, .885, .32, 1.275), opacity .3s cubic-bezier(.19, 1, .22, 1)
+            }
+
+            .privacy-enter {
+                transform: translate3D(100px, 0, 0);
+                opacity: 0
+            }
+
+            .privacy-leave-to {
+                transform: translate3D(-100px, 0, 0);
+                opacity: 0
+            }
+
+            html {
+                font-size: 16px;
+                -ms-text-size-adjust: 100%;
+                -webkit-text-size-adjust: 100%;
+                -moz-osx-font-smoothing: grayscale;
+                -webkit-font-smoothing: antialiased;
+                box-sizing: border-box;
+                --card-scale: 1
+            }
+
+            *,
+            :after,
+            :before {
+                box-sizing: border-box;
+                margin: 0
+            }
+
+            main {
+                width: 100vw
+            }
+
+            ul {
+                list-style: none;
+                padding: 0
+            }
+
+            .disable-scroll {
+                position: fixed
+            }
+
+            body {
+                overflow-x: hidden;
+                --section-gutter: 4rem;
+                background-image: url(./Discovery_tiles2.png);
+                background-size: cover;
+            }
+
+            body.is-experience {
+                overflow: hidden;
+                -webkit-overflow-scrolling: touch;
+                -ms-scroll-chaining: none;
+                overscroll-behavior: none
+            }
+
+            button {
+                border: none;
+                outline: 0;
+                cursor: pointer;
+                padding: 0;
+                margin: 0;
+                background-color: transparent
+            }
+
+            section {
+                width: 100vw;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                --separator-background-color: #fff
+            }
+
+            section .container {
+                max-width: 76.25rem;
+                width: 100%;
+                padding-left: var(--section-gutter);
+                padding-right: var(--section-gutter);
+                margin: 0 auto
+            }
+
+            section h2 {
+                text-align: left;
+                text-transform: uppercase;
+                color: #218bee;
+                padding-bottom: 4.25rem
+            }
+
+            .icon+* {
+                margin-left: .6875rem
+            }
+
+            .icon path {
+                transition: fill .2s cubic-bezier(.39, .575, .565, 1);
+                fill: #3c3c3c
+            }
+
+            .icon path.stroke {
+                fill: none;
+                stroke: #3c3c3c
+            }
+
+            .icon.outlined rect {
+                stroke: #3c3c3c
+            }
+
+            .icon.inheritColor path:not(.stroke) {
+                fill: var(--icon-color)
+            }
+
+            .icon.inheritColor path.stroke,
+            .icon.inheritColor.outlined rect {
+                stroke: var(--icon-color)
+            }
+
+            .icon.apple {
+                transform: translateY(-1.5px)
+            }
+
+            .md-container {
+                padding-bottom: 6.25rem;
+                transition: transform .4s cubic-bezier(.175, .885, .32, 1.275), opacity .6s cubic-bezier(.19, 1, .22, 1)
+            }
+
+            .md-container *+* {
+                margin-bottom: 1.75rem
+            }
+
+            .md-container a:hover {
+                text-decoration: underline
+            }
+
+            .md-container h1 {
+                color: #3d5f7c;
+                font-size: 2rem;
+                margin-bottom: 2.8125rem
+            }
+
+            .md-container h2 {
+                color: #0d2480;
+                font-size: 1.5rem;
+                padding: 0;
+                margin-bottom: 1.25rem;
+                text-transform: inherit
+            }
+
+            .md-container>h1:first-child {
+                text-align: left;
+                text-transform: uppercase;
+                background: #218bee;
+                background: #3d5f7c;
+                -webkit-background-clip: text;
+                background-clip: text;
+                -webkit-text-fill-color: transparent;
+                font-size: 4.25rem
+            }
+
+            .md-container *+h1 {
+                margin-top: 6.25rem
+            }
+
+            .md-container li,
+            .md-container p {
+                color: #4e515a;
+                font-size: 1.125rem;
+                line-height: 1.5em;
+                margin-bottom: 1.75rem
+            }
+
+            .md-container ul {
+                padding-left: 1em
+            }
+
+            .md-container li {
+                margin-bottom: .875rem;
+                list-style-type: disc
+            }
+
+            .md-container li p:last-child {
+                margin-bottom: 0
+            }
+
+            .md-container a,
+            .md-container a:visited {
+                color: #0bf
+            }
+
+            .md-container table {
+                font-size: 1.125rem;
+                color: #5565a5;
+                margin: 1.75rem auto;
+                border-collapse: collapse;
+                border: 1px solid #5565a5
+            }
+
+            .md-container table th {
+                background-color: #f3f4f8;
+                border: 1px solid #5565a5;
+                padding: 1rem
+            }
+
+            .md-container table td {
+                border: 1px solid #5565a5;
+                padding: .5rem
+            }
+
+            .mobile-layer {
+                display: none;
+                position: fixed;
+                z-index: 1000;
+                width: 100vw;
+                height: 100vh;
+                top: 0;
+                left: 0;
+                overflow: hidden;
+                background-color: #0d2480;
+                background-image: url(images/mobile/background.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                padding: 3.75rem 1.25rem;
+                justify-content: space-between;
+                align-items: center
+            }
+
+            .mobile-layer h1 {
+                color: #fff;
+                font-size: 2.375rem;
+                line-height: 3.125rem;
+                margin-bottom: 1.25rem;
+                text-align: center;
+                text-transform: uppercase
+            }
+
+            .mobile-layer p {
+                text-align: center;
+                font-size: 1.125rem;
+                color: #fff
+            }
+
+            .mobile-layer .download-buttons {
+                justify-self: flex-end
+            }
+
+            .mobile-only {
+                display: none
+            }
+
+            @media (max-width:959px) {
+                body {
+                    --section-gutter: 2.5rem
+                }
+
+                .h1,
+                h1 {
+                    font-size: 10.625rem
+                }
+
+                .h1,
+                .h2,
+                h1,
+                h2 {
+                    font-style: normal
+                }
+
+                .h2,
+                h2 {
+                    font-size: 2.5rem
+                }
+
+                .h3,
+                h3 {
+                    font-style: normal;
+                    font-size: 1.625rem;
+                    line-height: 1.875rem
+                }
+
+                p {
+                    font-size: 1.125rem;
+                    line-height: 1.5em;
+                    color: #5565a5
+                }
+
+                .md-container {
+                    padding-bottom: 6.25rem;
+                    transition: transform .4s cubic-bezier(.175, .885, .32, 1.275), opacity .6s cubic-bezier(.19, 1, .22, 1)
+                }
+
+                .md-container *+* {
+                    margin-bottom: 1.25rem
+                }
+
+                .md-container h1 {
+                    color: #0d2480;
+                    font-size: 1.75rem;
+                    margin-bottom: 2.5rem
+                }
+
+                .md-container h2 {
+                    color: #0d2480;
+                    font-size: 1.25rem;
+                    padding: 0;
+                    margin-bottom: 1.25rem;
+                    text-transform: inherit
+                }
+
+                .md-container>h1:first-child {
+                    font-size: 2.25rem
+                }
+
+                .md-container ul {
+                    padding-top: 1rem;
+                    padding-left: 1rem
+                }
+
+                .md-container li,
+                .md-container p {
+                    font-size: 1rem;
+                    margin-bottom: 1.25rem
+                }
+
+                .md-container li {
+                    margin-bottom: .625rem
+                }
+            }
+
+            @media (max-width:767px) {
+                body {
+                    --section-gutter: 1.875rem
+                }
+
+                .h1,
+                h1 {
+                    font-size: 10.625rem
+                }
+
+                .h1,
+                .h2,
+                h1,
+                h2 {
+                    font-style: normal
+                }
+
+                .h2,
+                h2 {
+                    font-size: 1.75rem
+                }
+
+                .h3,
+                h3 {
+                    font-style: normal;
+                    font-size: 1.5rem;
+                    line-height: 1.875rem
+                }
+
+                p {
+                    font-size: 1.125rem;
+                    line-height: 1.5em;
+                    color: #5565a5
+                }
+
+                .mobile-only {
+                    display: block
+                }
+
+                .hidden-mobile {
+                    display: none !important
+                }
+
+                .md-container {
+                    padding-bottom: 6.25rem;
+                    transition: transform .4s cubic-bezier(.175, .885, .32, 1.275), opacity .6s cubic-bezier(.19, 1, .22, 1)
+                }
+
+                .md-container *+* {
+                    margin-bottom: 1.25rem
+                }
+
+                .md-container h1 {
+                    color: #0d2480;
+                    font-size: 1.75rem;
+                    margin-bottom: 2.5rem
+                }
+
+                .md-container h2 {
+                    color: #0d2480;
+                    font-size: 1.25rem;
+                    padding: 0;
+                    margin-bottom: 1.25rem;
+                    text-transform: inherit
+                }
+
+                .md-container>h1:first-child {
+                    font-size: 2.25rem
+                }
+
+                .md-container ul {
+                    padding-top: 1rem;
+                    padding-left: 1rem
+                }
+
+                .md-container li,
+                .md-container p {
+                    font-size: 1rem;
+                    margin-bottom: 1.25rem
+                }
+
+                .md-container li {
+                    margin-bottom: .625rem
+                }
+
+                .privacy-section .container,
+                .terms-section .container {
+                    padding-left: 0;
+                    padding-right: 0
+                }
+
+                .md-container>* {
+                    margin-left: var(--section-gutter);
+                    margin-right: var(--section-gutter)
+                }
+
+                .md-container table {
+                    margin-left: .75rem;
+                    margin-right: .75rem;
+                    border-collapse: collapse;
+                    border: 1px solid #5565a5
+                }
+
+                .md-container table th {
+                    border: 1px solid #5565a5;
+                    padding: .625rem 0;
+                    font-size: .75rem
+                }
+
+                .md-container table td {
+                    border: 1px solid #5565a5;
+                    padding: 1rem .25rem;
+                    font-size: .625rem
+                }
+            }
+
+            .nuxt-progress {
+                position: fixed;
+                top: 0;
+                left: 0;
+                right: 0;
+                height: 2px;
+                width: 0;
+                opacity: 1;
+                transition: width .1s, opacity .4s;
+                background-color: #fff;
+                z-index: 999999
+            }
+
+            .nuxt-progress.nuxt-progress-notransition {
+                transition: none
+            }
+
+            .nuxt-progress-failed {
+                background-color: red
+            }
+
+            @media (max-width:767px) {
+
+                .button,
+                .link {
+                    justify-content: center;
+                    border-radius: 1.25rem;
+                    height: 3.5rem;
+                    margin: 0;
+                    min-width: 10rem;
+                    padding: 0 1.25rem
+                }
+            }
+
+            .navbar-container {
+                position: fixed;
+                z-index: 10;
+                top: -.625rem;
+                left: 0;
+                width: 100vw;
+                padding: 2.5rem 0;
+                border-bottom-left-radius: 1.625rem;
+                border-bottom-right-radius: 1.625rem;
+                transform: translateZ(0);
+                transition: all .6s cubic-bezier(.175, .885, .32, 1.275)
+            }
+
+            .navbar-container.shadow {
+                background-color: #fff;
+                box-shadow: 0 4px 160px rgba(0, 0, 0, .08)
+            }
+
+            .navbar-container.is-hidden {
+                transform: translate3D(0, -100%, 0)
+            }
+
+            .navbar-container.fixed {
+                background-color: transparent;
+                box-shadow: none
+            }
+
+            .navbar-container.is-scrollable {
+                position: absolute
+            }
+
+            .navbar {
+                width: 100%;
+                max-width: 90rem;
+                margin: 0 auto;
+                padding: 0 3rem;
+                display: flex;
+                justify-content: space-between;
+                align-items: center
+            }
+
+            .navbar .logo-container {
+                opacity: 1;
+                transform: translateX(0);
+                transition: all .4s cubic-bezier(.175, .885, .32, 1.275);
+                transition-delay: .5s
+            }
+
+            .navbar .logo-container a {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: .25rem 0
+            }
+
+            .navbar .logo-container a img {
+                max-height: 2.5rem;
+                margin-right: .5625rem
+            }
+
+            .navbar .logo-container a svg {
+                transform: translateY(2px);
+                height: 2.5rem
+            }
+
+            .navbar .logo-container.is-menu-open {
+                opacity: 0;
+                transform: translateX(-100px);
+                transition-delay: 0s
+            }
+
+            .navbar .ctas {
+                display: flex
+            }
+
+            .navbar .burger {
+                position: relative;
+                z-index: 100;
+                margin-left: 1rem
+            }
+
+            @media (max-width:767px) {
+                .navbar-container {
+                    display: none;
+                    padding: 1.25rem 0;
+                    position: absolute
+                }
+
+                .navbar-container.is-hidden {
+                    transform: translateZ(0)
+                }
+
+                .navbar {
+                    padding: 0 1.25rem
+                }
+
+                .navbar .logo-container {
+                    opacity: 1;
+                    transform: translateX(0);
+                    transition: all .4s cubic-bezier(.175, .885, .32, 1.275);
+                    transition-delay: .5s
+                }
+
+                .navbar .logo-container a {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding: .25rem 0
+                }
+
+                .navbar .logo-container a img {
+                    max-height: 2.25rem;
+                    margin-right: .5625rem
+                }
+
+                .navbar .logo-container a svg {
+                    transform: translateY(2px);
+                    height: 1.375rem
+                }
+
+                .navbar .ctas .download-buttons {
+                    display: none
+                }
+            }
+
+            @media (max-width:767px) {
+
+                .button[data-v-ec05ee06],
+                .link[data-v-ec05ee06] {
+                    justify-content: center;
+                    border-radius: 1.25rem;
+                    height: 3.5rem;
+                    margin: 0;
+                    min-width: 10rem;
+                    padding: 0 1.25rem
+                }
+            }
+
+            .logo[data-v-ec05ee06] {
+                height: 1.4375rem
+            }
+
+            .logo path.fill[data-v-ec05ee06] {
+                fill: #fff
+            }
+
+            .logo.dark path.fill[data-v-ec05ee06] {
+                fill: #0bf
+            }
+
+            .download-buttons.wrap .link {
+                font-weight: 800
+            }
+
+            @media (max-width:767px) {
+
+                .button,
+                .link {
+                    justify-content: center;
+                    border-radius: 1.25rem;
+                    height: 3.5rem;
+                    margin: 0;
+                    min-width: 10rem;
+                    padding: 0 1.25rem
+                }
+            }
+
+            .download-buttons {
+                display: inline-flex
+            }
+
+            .download-buttons.wrap {
+                display: flex;
+                flex-wrap: wrap
+            }
+
+            .download-buttons.wrap .link {
+                text-transform: uppercase;
+                font-size: .9375rem;
+                line-height: 1.0625rem;
+                margin-top: .5rem;
+                height: 3rem
+            }
+
+            .download-buttons .link:not(.is-translucent) {
+                --link-color: #595959;
+                --link-text-color: #595959;
+                --icon-color: #595959
+            }
+
+            .download-buttons .link:not(.is-translucent):hover {
+                --icon-color: #fff;
+                --link-color: #ff0096
+            }
+
+            .download-buttons .link:first-child {
+                margin-right: .75rem
+            }
+
+            .download-buttons.white .link {
+                --link-color: #fff;
+                --link-text-color: #0d2480;
+                --icon-color: #0d2480
+            }
+
+            .download-buttons.white .link:hover {
+                --link-color: #fff;
+                --icon-color: #fff
+            }
+
+            .download-buttons.two-lines {
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap
+            }
+
+            .download-buttons.two-lines .link {
+                margin-right: 0;
+                align-self: stretch
+            }
+
+            @media (max-width:767px) {
+                .download-buttons .link span {
+                    transform: translateY(-2px)
+                }
+
+                .download-buttons .link.white-on-mobile {
+                    --link-color: #fff;
+                    --link-text-color: #0d2480;
+                    --icon-color: #0d2480
+                }
+
+                .download-buttons .link.white-on-mobile:hover {
+                    --link-color: #fff;
+                    --link-text-color: #fff;
+                    --icon-color: #fff
+                }
+            }
+
+            .button,
+            .link {
+                font-weight: 700;
+                --link-color: #ff0096;
+                --link-text-color: #fff;
+                --icon-color: #ff0096;
+                cursor: pointer;
+                display: inline-flex;
+                flex: 0 1 auto;
+                align-self: flex-start;
+                align-items: center;
+                justify-content: center;
+                background-color: var(--link-color);
+                border: .125rem solid var(--link-color);
+                border-radius: 1.25rem;
+                height: 3rem;
+                margin: 0;
+                min-width: 9.375rem;
+                padding: 0 1.25rem;
+                text-decoration: none;
+                font-size: 1rem;
+                line-height: 1.25rem;
+                vertical-align: middle;
+                transition: transform .3s cubic-bezier(.175, .885, .32, 1.275), background-color .3s cubic-bezier(.39, .575, .565, 1), border .3s cubic-bezier(.39, .575, .565, 1)
+            }
+
+            .button,
+            .button:visited,
+            .link,
+            .link:visited {
+                color: var(--link-text-color)
+            }
+
+            .active.button,
+            .active.link,
+            .button:focus,
+            .button:hover,
+            .is-outlined.button,
+            .is-outlined.link,
+            .link:focus,
+            .link:hover {
+                background: 0 0;
+                color: var(--link-color)
+            }
+
+            .is-outlined.button:hover,
+            .is-outlined.link:hover {
+                --icon-color: #fff;
+                background-color: var(--link-color);
+                color: #fff
+            }
+
+            .is-translucent.button,
+            .is-translucent.link {
+                border: none;
+                --link-color: hsla(0, 0%, 100%, 0.5);
+                --icon-color: #fff;
+                --link-text-color: #fff
+            }
+
+            .is-translucent.active.button,
+            .is-translucent.active.link,
+            .is-translucent.button:focus,
+            .is-translucent.button:hover,
+            .is-translucent.link:focus,
+            .is-translucent.link:hover {
+                background: hsla(0, 0%, 100%, .3);
+                color: var(--link-text-color);
+                transform: scale(1.05)
+            }
+
+            .pink-hover.button,
+            .pink-hover.link {
+                transition: transform .3s cubic-bezier(.175, .885, .32, 1.275), background-color .2s cubic-bezier(.39, .575, .565, 1)
+            }
+
+            .pink-hover.active.button,
+            .pink-hover.active.link,
+            .pink-hover.button:focus,
+            .pink-hover.button:hover,
+            .pink-hover.link:focus,
+            .pink-hover.link:hover {
+                background: #ff0096
+            }
+
+            .is-hidden.button,
+            .is-hidden.link {
+                opacity: 0;
+                transform: translateY(-100px);
+                pointer-events: none
+            }
+
+            @media (max-width:767px) {
+
+                .button,
+                .link {
+                    justify-content: center;
+                    border-radius: 1.25rem;
+                    height: 3.5rem;
+                    margin: 0;
+                    min-width: 10rem;
+                    padding: 0 1.25rem
+                }
+            }
+
+            .menu-container .pages-link li a {
+                font-weight: 1000
+            }
+
+            @media (max-width:767px) {
+
+                .button,
+                .link {
+                    justify-content: center;
+                    border-radius: 1.25rem;
+                    height: 3.5rem;
+                    margin: 0;
+                    min-width: 10rem;
+                    padding: 0 1.25rem
+                }
+            }
+
+            .menu-container {
+                position: fixed;
+                top: .625rem;
+                left: 0;
+                width: 100vw;
+                height: 100vh;
+                transform: rotateX(0);
+                pointer-events: none
+            }
+
+            .menu-container .stagger-item {
+                opacity: 0
+            }
+
+            .menu-container .bg-layer {
+                position: absolute;
+                width: 100vw;
+                height: 100vh;
+                background-color: transparent;
+                opacity: 0;
+                transition: all .7s cubic-bezier(.47, 0, .745, .715);
+                transition-delay: 0s
+            }
+
+            .menu-container .bg-layer.is-scene1 {
+                background-color: rgba(255, 0, 150, .5)
+            }
+
+            .menu-container .bg-layer.is-scene2 {
+                background-color: rgba(0, 255, 255, .5)
+            }
+
+            .menu-container .bg-layer.is-scene3 {
+                background-color: rgba(255, 88, 96, .5)
+            }
+
+            .menu-container .bg-layer.is-scene4 {
+                background-color: rgba(51, 184, 135, .5)
+            }
+
+            .menu-container .bg-layer.is-scene5 {
+                background-color: rgba(160, 38, 255, .5)
+            }
+
+            .menu-container .bg-layer.is-experience {
+                opacity: 0
+            }
+
+            .menu-container ul {
+                list-style: none
+            }
+
+            .menu-container #menu-bg {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100vw;
+                height: 100vh
+            }
+
+            .menu-container .pages-link {
+                position: absolute
+            }
+
+            .menu-container .pages-link li {
+                opacity: 0;
+                position: absolute;
+                left: 0;
+                top: 0;
+                --icon-color: #fff;
+                cursor: pointer
+            }
+
+            .menu-container .pages-link li a {
+                padding: var(--section-gutter);
+                padding-right: 20%;
+                text-transform: uppercase;
+                white-space: pre-line;
+                display: block;
+                text-decoration: none;
+                font-size: 2.5rem;
+                color: #fff;
+                width: 33.3333vw;
+                height: 100vh
+            }
+
+            .menu-container .pages-link li a img {
+                position: absolute;
+                right: 0;
+                bottom: 0;
+                max-width: 70%;
+                max-height: 80%;
+                opacity: 0
+            }
+
+            .menu-container .pages-link li .icon {
+                display: block;
+                margin-top: 2.375rem;
+                width: 2.375rem;
+                height: 2.375rem
+            }
+
+            .menu-container .pages-link li:visited {
+                color: #fff
+            }
+
+            .menu-container .pages-link .home-link a img {
+                left: 0;
+                right: auto
+            }
+
+            .menu-container .pages-link .jobs-link {
+                left: 33.3333vw
+            }
+
+            .menu-container .pages-link .jobs-link a {
+                height: 50vh
+            }
+
+            .menu-container .pages-link .social-link {
+                left: 33.3333vw;
+                top: 50vh
+            }
+
+            .menu-container .pages-link .social-link a {
+                height: 50vh
+            }
+
+            .menu-container .white-panel {
+                position: absolute;
+                left: 66.666vw;
+                top: 0;
+                width: 33.3333vw;
+                height: 100vh;
+                padding: 6.25rem 5vw 2.5rem;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: space-between
+            }
+
+            .menu-container .white-panel .footer {
+                justify-self: flex-end
+            }
+
+            .menu-container .white-panel .footer hr {
+                border: 1px solid #f1f1f1;
+                margin: 2.5rem 0 1.875rem
+            }
+
+            .menu-container .white-panel .footer .download-buttons .link {
+                opacity: 0
+            }
+
+            .menu-container .white-panel .footer p {
+                margin-top: 1.5rem;
+                font-size: 1rem
+            }
+
+            .menu-container .menu-list {
+                margin: 0;
+                padding: 0;
+                list-style: none
+            }
+
+            .menu-container .menu-list .menu-list-item {
+                position: relative
+            }
+
+            .menu-container .menu-list .menu-list-item a {
+                display: inline-block;
+                padding: .5rem 0;
+                font-size: 1.25rem;
+                font-weight: 700;
+                color: #0d2480
+            }
+
+            .menu-container .menu-list .menu-list-item a span {
+                display: inline-block;
+                margin: 0;
+                transform: translateZ(0);
+                transition: all .4s cubic-bezier(.175, .885, .32, 1.275)
+            }
+
+            .menu-container .menu-list .menu-list-item a .icon {
+                position: absolute;
+                width: 1.25rem;
+                height: 1.25rem;
+                opacity: 0;
+                transform: scale(0);
+                transition: all .6s cubic-bezier(.175, .885, .32, 1.275);
+                --icon-color: #0d2480
+            }
+
+            .menu-container .menu-list .menu-list-item:hover a span {
+                transform: translate3D(30px, 0, 0)
+            }
+
+            .menu-container .menu-list .menu-list-item:hover a .icon {
+                opacity: 1;
+                transform: scale(1)
+            }
+
+            .menu-container .menu-link {
+                visibility: none;
+                opacity: 0
+            }
+
+            .menu-container.is-active {
+                pointer-events: all
+            }
+
+            .menu-container.is-active .bg-layer:not(.is-experience) {
+                opacity: 1;
+                transition: all .6s cubic-bezier(.19, 1, .22, 1);
+                transition-delay: .2s
+            }
+
+            @media (max-width:1439px) {
+                .menu-container .white-panel {
+                    padding: 6.25rem 2vw 2.5rem 4vw
+                }
+            }
+
+            @media (max-width:767px) {
+                .menu-container {
+                    overflow-y: scroll;
+                    height: 100vh;
+                    opacity: 0;
+                    transition: all .25s cubic-bezier(.19, 1, .22, 1)
+                }
+
+                .menu-container .pages-link,
+                .menu-container .white-panel {
+                    transform: translateY(100%);
+                    transition: all .5s cubic-bezier(.19, 1, .22, 1)
+                }
+
+                .menu-container:before {
+                    content: "";
+                    display: block;
+                    position: fixed;
+                    z-index: -1;
+                    width: 100%;
+                    height: 50vh;
+                    background: #08103d;
+                    background: linear-gradient(90deg, #08103d, #121c58 33%, #755ad2);
+                    transform: translateY(100%);
+                    transition: opacity .15s cubic-bezier(.39, .575, .565, 1) 1s, transform .5s cubic-bezier(.19, 1, .22, 1)
+                }
+
+                .menu-container.is-active,
+                .menu-container.is-active:before {
+                    opacity: 1;
+                    transform: translateY(0)
+                }
+
+                .menu-container.is-active .pages-link,
+                .menu-container.is-active .white-panel {
+                    transform: translateY(0)
+                }
+
+                .menu-container.is-experience,
+                .menu-container.is-experience .pages-link,
+                .menu-container.is-experience .white-panel {
+                    transition-delay: .5s
+                }
+
+                .menu-container.is-experience:before {
+                    opacity: 0;
+                    transition-delay: 1s
+                }
+
+                .menu-container .stagger-item {
+                    opacity: 1
+                }
+
+                .menu-container .pages-link {
+                    position: relative;
+                    z-index: 2
+                }
+
+                .menu-container .pages-link .pages-link-list {
+                    display: flex;
+                    margin: 0;
+                    padding: 25vh .75rem 0;
+                    justify-content: stretch;
+                    align-items: center
+                }
+
+                .menu-container .pages-link .pages-link-list:before {
+                    content: "";
+                    position: absolute;
+                    z-index: 1;
+                    bottom: 0;
+                    left: 0;
+                    display: block;
+                    width: 100%;
+                    height: 20vh;
+                    background: #fff;
+                    background: linear-gradient(0deg, #fff, hsla(0, 0%, 100%, .5) 30%, hsla(0, 0%, 100%, 0) 90%)
+                }
+
+                .menu-container .pages-link .pages-link-list li {
+                    list-style: none;
+                    opacity: 1
+                }
+
+                .menu-container .pages-link .pages-link-list li a {
+                    flex: 1;
+                    font-size: 1.25rem;
+                    line-height: 1.375rem;
+                    overflow: hidden;
+                    -webkit-mask-image: -webkit-radial-gradient(#fff, #000)
+                }
+
+                .menu-container .pages-link .pages-link-list li a .icon {
+                    display: block;
+                    margin-top: 1rem;
+                    width: 1.5rem;
+                    height: 1.5rem
+                }
+
+                .menu-container .pages-link .pages-link-list li a img {
+                    position: absolute;
+                    right: -20%;
+                    bottom: -20%;
+                    max-width: 70%;
+                    max-height: 80%;
+                    opacity: 1
+                }
+
+                .menu-container .pages-link .pages-link-list .home-link {
+                    position: fixed;
+                    overflow: hidden
+                }
+
+                .menu-container .pages-link .pages-link-list .home-link a {
+                    width: 100vw;
+                    height: 50vh;
+                    padding: 1.875rem
+                }
+
+                .menu-container .pages-link .pages-link-list .home-link a img {
+                    left: 50%;
+                    right: auto;
+                    bottom: 0;
+                    opacity: 1;
+                    max-width: 100%;
+                    max-height: 100%;
+                    transform: translate3D(-50%, 35%, 0);
+                    transition: all .5s cubic-bezier(.19, 1, .22, 1) 1s
+                }
+
+                .menu-container .pages-link .pages-link-list .home-link.is-experience a img {
+                    opacity: 0
+                }
+
+                .menu-container .pages-link .pages-link-list .jobs-link,
+                .menu-container .pages-link .pages-link-list .social-link {
+                    flex: 1;
+                    top: 0;
+                    z-index: 2;
+                    left: 0;
+                    position: relative;
+                    display: flex
+                }
+
+                .menu-container .pages-link .pages-link-list .jobs-link a,
+                .menu-container .pages-link .pages-link-list .social-link a {
+                    border-radius: 2.375rem;
+                    width: auto;
+                    height: 10.625rem;
+                    padding: 1.875rem;
+                    background-color: #2faeff;
+                    transform: translateY(50%)
+                }
+
+                .menu-container .pages-link .pages-link-list .social-link {
+                    margin-left: .625rem
+                }
+
+                .menu-container .pages-link .pages-link-list .social-link a {
+                    background: #725be2;
+                    background: linear-gradient(225deg, #725be2 40%, #218bee)
+                }
+
+                .menu-container .white-panel {
+                    position: relative;
+                    background: #fff;
+                    top: 0;
+                    left: 0;
+                    width: 100vw;
+                    height: auto;
+                    padding: 6.25rem 1.5rem 3.125rem
+                }
+
+                .menu-container .white-panel .footer .download-buttons {
+                    margin-top: 1.25rem;
+                    display: inline-block
+                }
+
+                .menu-container .white-panel .footer .download-buttons .link {
+                    opacity: 1;
+                    font-size: 1rem
+                }
+            }
+
+            html[lang=ja] .menu-container .pages-link li a,
+            html[lang=zh-Hant] .menu-container .pages-link li a {
+                font-weight: 900
+            }
+
+            @media (max-width:767px) {
+
+                .button[data-v-5b083850],
+                .link[data-v-5b083850] {
+                    justify-content: center;
+                    border-radius: 1.25rem;
+                    height: 3.5rem;
+                    margin: 0;
+                    min-width: 10rem;
+                    padding: 0 1.25rem
+                }
+            }
+
+            .love-item[data-v-5b083850] {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: .00625rem;
+                color: transparent
+            }
+
+            .love-item img[data-v-5b083850] {
+                display: inline-block;
+                height: 1.5625rem;
+                width: auto
+            }
+
+            @media (max-width:767px) {
+
+                .button[data-v-4b3fca74],
+                .link[data-v-4b3fca74] {
+                    justify-content: center;
+                    border-radius: 1.25rem;
+                    height: 3.5rem;
+                    margin: 0;
+                    min-width: 10rem;
+                    padding: 0 1.25rem
+                }
+            }
+
+            .social-networks[data-v-4b3fca74] {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                justify-content: flex-start;
+                --icon-color: #595959
+            }
+
+            .social-networks li[data-v-4b3fca74],
+            .social-networks[data-v-4b3fca74] {
+                display: flex;
+                flex-direction: row;
+                align-items: center
+            }
+
+            .social-networks li[data-v-4b3fca74] {
+                position: relative;
+                justify-content: center
+            }
+
+            .social-networks li span[data-v-4b3fca74] {
+                position: absolute;
+                opacity: 0;
+                font-size: 1px
+            }
+
+            .social-networks li svg[data-v-4b3fca74] {
+                width: 1.5rem;
+                height: 1.5rem
+            }
+
+            .social-networks li+li[data-v-4b3fca74] {
+                margin-left: 2.125rem
+            }
+
+            .social-networks li[data-v-4b3fca74]:hover {
+                --icon-color: #ff0096
+            }
+
+            @media (max-width:767px) {
+
+                .button[data-v-f9e61314],
+                .link[data-v-f9e61314] {
+                    justify-content: center;
+                    border-radius: 1.25rem;
+                    height: 3.5rem;
+                    margin: 0;
+                    min-width: 10rem;
+                    padding: 0 1.25rem
+                }
+            }
+
+            .burger[data-v-f9e61314] {
+                background-color: #0d2480;
+                height: 3rem;
+                width: 3.5rem;
+                border-radius: 1.25rem;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+                padding: .875rem;
+                transform: scale(1);
+                transition: transform .4s cubic-bezier(.175, .885, .32, 1.275), background-color .3s cubic-bezier(.175, .885, .32, 1.275)
+            }
+
+            .burger[data-v-f9e61314]:hover {
+                transform: scale(1.05)
+            }
+
+            .burger span[data-v-f9e61314] {
+                position: relative;
+                height: .25rem;
+                width: 1.5rem;
+                font-size: .1px;
+                color: transparent
+            }
+
+            .burger span[data-v-f9e61314]:not(.cross) {
+                border-radius: .25rem;
+                background-color: #0ff;
+                transition: opacity .3s cubic-bezier(.19, 1, .22, 1), transform .25s cubic-bezier(.175, .885, .32, 1.275);
+                transition-delay: .4s
+            }
+
+            .burger span.cross[data-v-f9e61314]:after,
+            .burger span.cross[data-v-f9e61314]:before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                display: block;
+                width: 100%;
+                height: 100%;
+                background-color: #0ff;
+                border-radius: .125rem;
+                transform-origin: center;
+                transition: transform .15s cubic-bezier(.39, .575, .565, 1);
+                transition-delay: .2s
+            }
+
+            .burger.active span[data-v-f9e61314] {
+                transition: opacity .25s cubic-bezier(.19, 1, .22, 1), transform .45s cubic-bezier(.175, .885, .32, 1.275)
+            }
+
+            .burger.active span[data-v-f9e61314]:first-child {
+                transform: translateX(-5px);
+                opacity: 0
+            }
+
+            .burger.active span[data-v-f9e61314]:last-child {
+                transform: translateX(5px);
+                opacity: 0
+            }
+
+            .burger.active .cross[data-v-f9e61314]:after,
+            .burger.active .cross[data-v-f9e61314]:before {
+                transition: transform .45s cubic-bezier(.175, .885, .32, 1.275)
+            }
+
+            .burger.active .cross[data-v-f9e61314]:before {
+                transform: rotate(45deg)
+            }
+
+            .burger.active .cross[data-v-f9e61314]:after {
+                transform: rotate(-45deg)
+            }
+
+            .burger.is-intro span.cross[data-v-f9e61314]:after,
+            .burger.is-intro span.cross[data-v-f9e61314]:before,
+            .burger.is-intro span[data-v-f9e61314] {
+                transition-delay: .2s
+            }
+
+            .burger.is-intro.active span.cross[data-v-f9e61314]:after,
+            .burger.is-intro.active span.cross[data-v-f9e61314]:before,
+            .burger.is-intro.active span[data-v-f9e61314] {
+                transition-delay: .9s
+            }
+
+            .burger.is-darkmode[data-v-f9e61314] {
+                background-color: #fff
+            }
+
+            .burger.is-darkmode span.cross[data-v-f9e61314]:after,
+            .burger.is-darkmode span.cross[data-v-f9e61314]:before,
+            .burger.is-darkmode span[data-v-f9e61314]:not(.cross),
+            .burger.is-darkmode.active[data-v-f9e61314] {
+                background-color: #0d2480
+            }
+
+            .burger.is-darkmode.active span.cross[data-v-f9e61314]:after,
+            .burger.is-darkmode.active span.cross[data-v-f9e61314]:before,
+            .burger.is-darkmode.active span[data-v-f9e61314]:not(.cross) {
+                background-color: #0ff
+            }
+
+            @media (max-width:767px) {
+                .burger.active[data-v-f9e61314] {
+                    background-color: #fff
+                }
+
+                .burger.active .cross[data-v-f9e61314]:after,
+                .burger.active .cross[data-v-f9e61314]:before,
+                .burger.active span[data-v-f9e61314]:not(.cross) {
+                    background-color: #0d2480;
+                    transition-delay: .5s
+                }
+            }
+
+            .terms-privacy-header-section .toggle-container a {
+                font-weight: 700
+            }
+
+            @media (max-width:767px) {
+
+                .button,
+                .link {
+                    justify-content: center;
+                    border-radius: 1.25rem;
+                    height: 3.5rem;
+                    margin: 0;
+                    min-width: 10rem;
+                    padding: 0 1.25rem
+                }
+            }
+
+            .terms-privacy-header-section {
+                padding-top: 6.25rem
+            }
+
+            .terms-privacy-header-section .toggle-container {
+                position: relative;
+                display: inline-flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                background-color: #ececec;
+                margin-top: 7.75rem;
+                margin-bottom: 3.75rem;
+                border-radius: 1.25rem
+            }
+
+            .terms-privacy-header-section .toggle-container .cursor {
+                position: absolute;
+                left: 0;
+                height: 100%;
+                border-radius: 1.25rem;
+                background-color: #ff0096
+            }
+
+            .terms-privacy-header-section .toggle-container a {
+                position: relative;
+                z-index: 2;
+                text-align: center;
+                vertical-align: middle;
+                text-transform: uppercase;
+                font-size: 1rem;
+                min-width: 8.75rem;
+                padding: 1rem 1.875rem;
+                color: #0d2480;
+                transition: color .4s cubic-bezier(.19, 1, .22, 1) .1s
+            }
+
+            .terms-privacy-header-section .toggle-container a.is-active {
+                color: #fff
+            }
+
+            .terms-privacy-header-section .content {
+                position: relative
+            }
+
+            @media (max-width:767px) {
+                .terms-privacy-header-section {
+                    padding-top: 5.625rem
+                }
+
+                .terms-privacy-header-section .container {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center
+                }
+
+                .terms-privacy-header-section .toggle-container {
+                    display: none
+                }
+
+                .terms-privacy-header-section .toggle-container a {
+                    padding: 1rem 1.25rem
+                }
+            }
+        </style>
+        <link rel="preload" href="_nuxt/static/1638269678/privacy/state.js" as="script">
+        <link rel="preload" href="_nuxt/static/1638269678/privacy/payload.js" as="script">
+        <link rel="preload" href="_nuxt/static/1638269678/manifest.js" as="script">
+    </head>
+    <body>
+        <div data-server-rendered="true" id="__nuxt">
+            
+            <!---->
+            <div id="__layout">
+                <main>
+                    <div class="navbar-container">
+                        <div class="navbar">
+                            <!-- <a href=""><img src="./icons-01.png" style="rotate: 180deg; margin-left: -100%; margin-top: 40%;" width="150px" alt=""></a> -->
+                          <!-- logo of the codex -->
+                            <div class="logo-container">
+                                <a href="index.html" class="nuxt-link-active">
+                                    <img style="margin-left: -670%; margin-top: -70%; " src="./Group 132.svg" alt="">
+                                </a>
+                            </div>
+                           
+                               
+                                <!---->
+                                <!-- <button name="Menu" class="burger" data-v-f9e61314>
+                                    <span data-v-f9e61314>Menu</span>
+                                    <span class="cross" data-v-f9e61314>Close</span>
+                                    <span data-v-f9e61314></span>
+                                </button> -->
+                            </div>
+                        </div>
+                    </div>
+                    <section class="terms-privacy-header-section">
+                        <div class="container">
+                            
+                                
+                                
+                                
+                            </div>
+                        </div>
+                    </section>
+                    <section class="privacy-section">
+                        <div class="container">
+                            <div class="md-container privacy is-active">
+                                <h1>Terms and conditions</h1>
+                                <p>
+                                    <br>
+                                    The following are the terms and conditions for use of the CODEX INFINITY application and related 
+                                    services provided  by IRA International Robotics Association. Please read them carefully. <br> 
+
+                                    <span style="font-weight: bold;">
+                                        BY SIGNING “I HAVE READ AND AGREE TO THE TERMS OF SERVICE”, COMPLETING THE 
+                                    REGISTRATION PROCESS AND/OR USING THE APPLICATION OR THE SERVICES, YOU ARE 
+                                    STATINGTHAT YOU READ, UNDERSTOOD AND AGREE TO BE BOUND BY ALL THE TERMS AND 
+                                    CONDITIONSOF THESE TERMS OF SERVICE (the “Terms”). 
+                                    </span>
+
+
+                                </p>
+                               
+                               
+                                
+                                 
+                
+                                
+                         
+                                
+                               
+                                <ul>
+                                    <li>
+                                        <p>
+                                            The Services are offered to you subject to your acceptance and compliance without any 
+                                            modification of these Terms. IRA International Robotics Association (herein referred to as “we”, “us”, 
+                                            or “Company”) offers services for engaging in real computer programming to children via its 
+                                            Application software “CODEX INFINITY” (the “App”). These Terms govern your access to and use of 
+                                            the App, and services.This Agreement applies to schools, school districts, and related entities and 
+                                            organisations, including but not limited to administrators, instructors, and professors who access or 
+                                            use the Services on their behalf (each a "Educational Institution"), as well as all non-Educational 
+                                            Institution visitors, users, and others who use the Services, including students, their parents, and 
+                                            legal guardians (collectively, "you"). 
+                                            
+
+                                        </p>
+                                    </li>
+                                    
+                                
+                                    
+                                    
+                                    <li>
+                                        <p>
+                                            USE OF THE SERVICES. Company owns and operates the website and domain name, as well as 
+                                            any other related pages, features, content, or application services (including, without limitation, any 
+                                            mobile application services) offered by Company from time to time in connection therewith 
+                                            (collectively, the "Website"). Company may offer to provide certain services, as defined more fully on 
+                                            the Website, that you have chosen (collectively, the "Services"), purely for your own use and not for 
+                                            the use or benefit of any third party, subject to the terms and conditions of this Agreement. 
+                                            The term "Services" include, among other things, your use of the Website, any service Company 
+                                            provides to you, and the Content (as defined below) that Company makes available on the Website.
+                                            The Services, including the availability of any feature, database, or Content, may be changed, 
+                                            suspended, or discontinued at any time by the Company. Company may also, without notice or 
+                                            liability, limit certain features and services or restrict your access to parts or all of the Services. 
+                                            Company retains the right to change this Agreement at any time in its sole discretion by posting a 
+                                            notice on the Website or emailing you a notification. Any such adjustments are your responsibility 
+                                            to study and get comfortable with. Following such notification, your use of the Services signifies 
+                                            your acceptance of the updated terms and conditions of this Agreement
+                                            
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            CONTENT OF SERVICES The Services and their contents are only for personal, non-commercial use
+                                            by users, and may be used only in compliance with the provisions of this Agreement. Copyright protects
+                                            all content shown or performed on the Services, including but not limited to text, graphics, articles, 
+                                            photographs, images, and illustrations (collectively known as "Content," and including User Submissions . 
+                                            You agree to follow all copyright notices, trademark rules, information, and restrictions in any Content 
+                                            accessed through the Services, and you agree not to use, copy, reproduce, modify, publish, broadcast, 
+                                            transmit, distribute, perform, upload, display, licence, sell, or otherwise exploit any Content or third-party 
+                                            submissions or other proprietary rights not owned by you for any purpose
+                                            
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            SERVICE CEASE You may cease using the Service at any time, also from time to time, we may apply 
+                                            upgrades, patches, bug fixes, or other maintenance to the Services and the app. We agree to use 
+                                            reasonable efforts to provide you with prior notice of any scheduled Maintenance
+                                            (except for emergency Maintenance), and you agree to use reasonable efforts to comply with any 
+                                            Maintenance requirements that we notify you about.
+                                            
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            TUTORING The company grants you a non-exclusive, non-transferable, non-sublicensable, limited 
+                                            right and licence to access, view, use, and display the CODEX INFINITY curriculum and tutorial materials. 
+                                            The CODEX INFINITY curriculum and tutorial materials may only be used for non-commercial, computer 
+                                            science and technology educational purposes such as tutoring only after getting the approval of the 
+                                            company and the company has the sole right to cease that service at any time without prior notice.
+
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            RESTRICTIONS You warrant, represent and agree that you will not contribute any Content or 
+                                            otherwise use the Services in a manner that <br>
+                                            (i) infringes or violates the intellectual property rights 
+                                            or proprietary 
+                                            rights, rights of publicity or privacy, or other rights of any third party; <br>
+                                            (ii) violates any law, statute, 
+                                            ordinance or regulation; <br>
+                                             (iii) is harmful, fraudulent, deceptive, threatening, abusive, harassing, tortious, 
+                                            defamatory, vulgar, obscene, libelous, or otherwise objectionable;
+                                            <br> (iv) involves commercial activities 
+                                            and/or sales without Company’s prior written consent such as contests, sweepstakes, barter, 
+                                            advertising, or pyramid schemes; 
+                                            <br>
+                                            (v) impersonates any person or entity, including without limitation any employee or representative 
+                                            of Company; or <br>
+                                            (vi) contains a virus, trojan horse, worm, time bomb, or other harmful computer 
+                                            code, file, or program. Company reserves the right to remove any Content from the Services at 
+                                            any time, for any reason (including, but not limited to, upon receipt of claims or allegations from 
+                                            third parties or authorities relating to such Content or if Company is concerned that you may 
+                                            have breached the immediately preceding sentence), or for no reason at all. You, not Company, 
+                                            remain solely responsible for all Content that you upload, post, email, transmit, or otherwise 
+                                            disseminate using, or in connection with, the Services, and you warrant that you possess
+                                            all rights necessary to provide such content to Company and to grant Company the rights to 
+                                            use such information in connection with the Services and as otherwise provided herein.
+                                            You acknowledge and agree that Company has exclusive discretion over whether or not 
+                                            you are in breach of any of the restrictions set forth in this Section, as well as over the 
+                                            course of action to be taken in response.
+
+                                            
+
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            PRIVACY POLICY A privacy policy is a legal document that specifies what kind of personal 
+                                            information we collect from our website visitors, how we use it, and how we protect it.
+                                            The policy will state that our site will Collect and store personal data submitted by its visitors. 
+                                            Our privacy policy will need to adapt as the Company grows to meet new situations. It is 
+                                            recommended that you examine this Policy for any modifications on a frequent basis, as
+                                            continuing usage constitutes acceptance of all changes.
+                                            
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            INDEMNITY. You agree to indemnify and hold Company, its parents, subsidiaries, affiliates, 
+                                            officers, and employees harmless (including, without limitation, from all damages, liabilities, 
+                                            settlements, costs, and attorneys' fees) from any third-party claim or demand arising out of 
+                                            your access to the Services, use of theServices, your violation of this Agreement, or the 
+                                            infringement of any intellectual property or other right by you or any third party using your account.
+
+
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            PAYMENTS If you make a purchase, we gather certain information about your purchase 
+                                            (such as your name, billing address, and ZIP code) that is required to process your transaction and 
+                                            may be kept for future buys if you choose. You must send your name, credit card information, 
+                                            billing address, and ZIP code to our payment service 
+                                            providers directly.We reserve the right, in our sole and absolute discretion, to change our Paid 
+                                            Subscription plans or adjust price for the Service or any of its components in any manner and at 
+                                            any time. Any pricing modifications or changes to your Codex Infinity Paid Subscription will take 
+                                            effect after notice to you, unless otherwise stated in these Terms. Payments are nonrefundable, 
+                                            and no refunds or credits are given for Paid Subscription periods that have been partially used. You will, 
+                                            however, have access to the service until the end of your current billing term, regardless of whether 
+                                            you cancel. We may offer a refund, discount, or other benefit to some or all of our members 
+                                            at any time and for any reason ("credits"). We reserve the right to choose the quantity and form of 
+                                            such credits, as well as whether or not to offer them. Credits provided in one instance do not 
+                                            entitle you to credits in subsequent instances, nor do they oblige us to grant credits in the future, 
+                                            under any circumstances.
+
+
+
+                                        </p>
+                                    </li>
+
+                                    <li>
+                                        <p>
+                                            TERMINATION While you use the Services, this Agreement will continue in full force and effect. 
+                                            You have the option to stop using the Services at any time. Company may cancel or suspend your 
+                                            access to the Services or your membership at any time, for any reason, and without notice, and all
+                                            information linked with your membership may be forfeited and destroyed. If you violate any of the 
+                                            terms or conditions of this Agreement, Company may immediately cancel or suspend any and all 
+                                            Services, as well as your access to the Website, without prior notice or liability. Your right to use the 
+                                            Services, access the Website, and access any Content will be immediately terminated if your account 
+                                            is terminated.All provisions of this Agreement that by their nature should survive termination, 
+                                            such as ownership clauses, warranty disclaimers, and liability limits, shall survive termination.
+                                            
+
+
+                                        </p>
+                                    </li>
+                                </ul>
+                               
+                                
+                               
+                               
+                               
+                               
+                            </div>
+                        </div>
+                    </section>
+                </main>
+            </div>
+        </div>
+       
+    </body>
+</html>
